@@ -1,5 +1,5 @@
-getdata-006_course_project
-==========================
+Course Project of Getting and Cleaning Data
+===========================================
 
 The "run_analysis.R" file contains the R code to get the clean data after performing the following 5 steps:
 
