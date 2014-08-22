@@ -29,5 +29,5 @@ train_combined <- cbind(extracted_train,labeled_Y_train["activity_label"],subjec
 
 total_merged <- rbind(test_combined ,train_combined )
 final_cleaning_result <- aggregate(as.matrix(total_merged[,1:66]),as.list(total_merged[,67:68]),FUN=mean)
-#write.table(final_cleaning_result,"final_cleaning_result_file.txt",row.names=FALSE)
+write.table(final_cleaning_result,"final_cleaning_result_file.txt",row.names=FALSE)
 print(final_cleaning_result)
